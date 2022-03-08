@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.circles {
+
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#grey {
+
+    background-color: grey;
+
+}
+
+#white {
+    background-color: white;
+
+}
+
+#blue {
+
+    background-color: blue;
+}
+
+#yellow {
+
+    background-color: yellow;
+}
+
+p {
+    width: 50%;
+    text-align: center;
+}
